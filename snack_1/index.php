@@ -50,10 +50,7 @@ $matches = [
 <body>
     <div>
         <?php foreach ($matches as $match){
-            foreach( $match as $teams){
-                //var_dump($teams["team1"]);
-                var_dump($teams);
-            }
+            echo $match["team1"];
         } ?>
     </div>
 </body>
